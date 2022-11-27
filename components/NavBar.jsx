@@ -9,7 +9,7 @@ function NavBar() {
   const [showMenu  , setShowMenu ] = useState(false)
   return (
     <div className=' relative bg-white '>
-        <div className=' container mx-auto '>
+        <div className=' container md:w-[90%] mx-auto '>
         <div className='flex items-center justify-between py-3 '>
           
      {/* image */}

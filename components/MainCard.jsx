@@ -34,19 +34,19 @@ function MainCard() {
                     loading={"lazy"}
                     className={"rounded-lg "}
                   />
-                  <div className="absolute top-0 left-0 w-full h-[98%] bg-[#00000040] rounded-t-lg md:h-full cu"></div>
-                  <div className="absolute top-[16px] left-[22px] w-44 h-autp bg-[#00b1ff99] rounded-xl py-1">
-                    <p className="text-white text-lg font-serif capitalize text-center my-auto">
+                  <div className="absolute top-0 left-0 w-full h-[98%] bg-[#00000040] rounded-t-lg md:h-full cursor-pointer"></div>
+                  <div className="absolute top-[16px] left-[22px] w-44 md:w-32 h-autp bg-[#00b1ff99] rounded-xl py-1">
+                    <p className="text-white text-lg md:text-[16px] font-serif capitalize text-center my-auto">
                       {item.night}
                     </p>
                   </div>
                 </div>
                 {/* content */}
                 <div className="container flex flex-col gap-2">
-                  <h1 className="text-xl text-gray-800 font-serif font-semibold capitalize ">
+                  <h1 className="text-xl md:font-medium md:h-[43px] text-gray-800 font-serif font-semibold capitalize ">
                     {item.type}
                   </h1>
-                  <p className="text-lg text-gray-700 font-serif font-medium capitalize">
+                  <p className="text-lg text-gray-500 md:text-[16px] md:font-normal font-serif font-medium capitalize">
                     {item.start}
                   </p>
                 </div>
@@ -54,21 +54,22 @@ function MainCard() {
                 <div className="container flex flex-col gap-2">
                   {/* days and reate */}
                   <div className="flex  justify-between  ">
-                    <p className=" text-xl text-gray-700 font-mono font-semibold md:font-normal md:text-lg capitalize">
+                    <p className=" text-xl text-gray-700 md:font-medium font-mono font-semibold  md:text-lg capitalize">
                       {item.days} / 10 Night
                     </p>
-                    <p className="text-xl text-gray-700 text-right font-serif font-medium capitalize">
+                    <p className="text-xl text-gray-700 md:text-lg  text-right font-serif font-medium capitalize">
                       from{" "}
                     </p>
                   </div>
                   {/* price */}
                   <div className="flex justify-between">
-                    <p className="flex gap-1 ">
+                    <p className="flex gap-1 items-center ">
                       <BsStarFill color="#FFD500" size={24} />{" "}
                       <BsStarFill color="#FFD500" size={24} />{" "}
                       <BsStarFill color="#FFD500" size={24} />{" "}
                       <BsStarFill color="#FFD500" size={24} />{" "}
                       <BsStarFill color="#FFD500" size={24} />{" "}
+                      <span className="text-sm text-gray-400" > (29) </span>
                     </p>
 
                     <p className="text-3xl text-[#00AEFF] font-mono font-semibold md:font-normal md:text-xl ">

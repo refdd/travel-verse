@@ -25,7 +25,6 @@ function SliderReviews() {
     // return removeEventListener in useEffect when window is resized
     return () => window.removeEventListener("resize", handleResize);
   }, [widthFull]);
-        console.log(sceenWidth)
         function SampleNextArrow(props) {
             const { className, style, onClick } = props;
             return (
@@ -57,7 +56,7 @@ function SliderReviews() {
   prevArrow: <SamplePrevArrow />
   };
   return (
-    <div className="">
+    <div className=" container mx-auto md:w-[90%]">
       <Slider {...settings}>
         {/* card */}
         <div>
@@ -94,7 +93,7 @@ function SliderReviews() {
                 Lorem i unde eius, lo;;;kkfsf jjji asdjfks quam eum iure
                 tempore.
               </p>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 text-yellow-400"
@@ -184,7 +183,7 @@ function SliderReviews() {
                 Lorem i unde eius, lo;;;kkfsf jjji asdjfks quam eum iure
                 tempore.
               </p>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 text-yellow-400"
@@ -274,7 +273,7 @@ function SliderReviews() {
                 Lorem i unde eius, lo;;;kkfsf jjji asdjfks quam eum iure
                 tempore.
               </p>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 text-yellow-400"
@@ -364,7 +363,7 @@ function SliderReviews() {
                 Lorem i unde eius, lo;;;kkfsf jjji asdjfks quam eum iure
                 tempore.
               </p>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 text-yellow-400"
@@ -454,7 +453,7 @@ function SliderReviews() {
                 Lorem i unde eius, lo;;;kkfsf jjji asdjfks quam eum iure
                 tempore.
               </p>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 text-yellow-400"
@@ -544,7 +543,7 @@ function SliderReviews() {
                 Lorem i unde eius, lo;;;kkfsf jjji asdjfks quam eum iure
                 tempore.
               </p>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 text-yellow-400"

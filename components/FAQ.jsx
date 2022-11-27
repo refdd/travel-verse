@@ -5,7 +5,7 @@ import image1 from "../public/assets/images/packageShortImage15942667715f069493c
 import FAndQPart from './FAndQPart'
 function FAQ() {
   return (
-    <div className='container mx-auto pt-10 pb-5 '>
+    <div className='container mx-auto md:w-[90%] pt-10 pb-5 '>
         <div className='grid grid-cols-1 md:grid-cols-5 gap-4 '>
         {/* image */}
         <div className=' w-full h-[400px] md:h-[590px] relative md:col-span-2 cursor-pointer '>

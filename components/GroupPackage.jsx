@@ -37,7 +37,7 @@ console.log(clientWidth)
         />
         <div
           ref={rowRef}
-          className="flex  items-center gap-5 overflow-x-scroll  scrollbar-hide  md:flex-wrap md:gap-1 md:justify-between "
+          className="flex  items-center gap-5 overflow-x-scroll  scrollbar-hide  md:flex-wrap md:gap-1 md:justify-between md:w-[90%] md:mx-auto "
         >
         <MainCard packages={packages}/>
         </div>

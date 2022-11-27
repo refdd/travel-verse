@@ -18,7 +18,7 @@ function FeaturedArticles() {
           <p className="text-center text-white text-[14px] font-serif my-5 ">
             Discover Our Featured Articles
           </p>
-          <div className=" container md:w-[80%] mx-auto flex flex-col gap-4 md:flex-row ">
+          <div className=" container md:w-[90%] mx-auto flex flex-col gap-4 md:flex-row ">
             <div className="flex flex-col  w-full  md:w-[282px] ">
               {/* image and countary*/}
               <div className=" w-full h-52 relative bg-white rounded-t-lg">

@@ -5,13 +5,13 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 function Footer() {
   return (
     <div className="container mx-auto px-5  bg-[#333333]">
-      <div className="grid grid-cols-1 md:grid-cols-4  gap-1 py-16">
+      <div className="grid grid-cols-1 md:grid-cols-4  gap-1 py-16 md:w-[90%] md:mx-auto">
         {/* frist clo */}
         <div className="flex flex-col gap-3 ">
           <p className="relative">
-            <h6 className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-serif font-semibold">
               Travelverse
-            </h6>
+            </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
           <p className="text-lg text-gray-400 font-serif capitalize ">
@@ -23,9 +23,9 @@ function Footer() {
         {/* col tow */}
         <div className="flex flex-col gap-3 px-3 ">
           <p className="relative">
-            <h6 className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-serif font-semibold">
               Our Info
-            </h6>
+            </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
           <ul className="flex flex-col gap-2  text-lg text-gray-400  capitalize font-serif">
@@ -52,9 +52,9 @@ function Footer() {
         {/* col three  */}
         <div className="flex flex-col gap-3">
           <p className="relative">
-            <h6 className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-serif font-semibold">
               Contact
-            </h6>
+            </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
           <div className="flex flex-col gap-3">
@@ -78,9 +78,9 @@ function Footer() {
         {/* col four */}
         <div className="flex flex-col gap-4">
           <p className="relative">
-            <h6 className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-serif font-semibold">
               Newslatters
-            </h6>
+            </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
           <p className="text-lg text-gray-400 font-serif capitalize ">
@@ -104,22 +104,18 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div> 
+      </div>
       {/* copy right */}
-      <div className=" container mx-auto border-t-2 border-gray-400 "></div>
-      <div className="flex flex-col md:flex-row md:justify-between items-center py-4" >
-      <p className="text-lg text-gray-400 font-serif capitalize "  >Copyright &#169; travel verse 2020.all right reserved </p>
-      <ul className="flex gap-3 text-lg text-gray-400 font-serif capitalize ">
-   <li className="hover:text-white cursor-pointer">
-     condition 
-   </li>
-   <li className="hover:text-white cursor-pointer">
-     Peivacy Policy  
-   </li>
-   <li className="hover:text-white cursor-pointer">
-     Policy 
-   </li>
-      </ul>
+      <div className=" container mx-auto border-t-2 border-gray-400 md:w-[90%] "></div>
+      <div className="flex flex-col md:flex-row md:justify-between items-center py-4 md:w-[90%] md:mx-auto">
+        <p className="text-lg text-gray-400 font-serif capitalize ">
+          Copyright &#169; travel verse 2020.all right reserved{" "}
+        </p>
+        <ul className="flex gap-3 text-lg text-gray-400 font-serif capitalize ">
+          <li className="hover:text-white cursor-pointer">condition</li>
+          <li className="hover:text-white cursor-pointer">Peivacy Policy</li>
+          <li className="hover:text-white cursor-pointer">Policy</li>
+        </ul>
       </div>
     </div>
   );
