@@ -1,105 +1,98 @@
-import Link from 'next/link'
 import Image from 'next/image'
-import React, { useState } from 'react'
-import loge from "../public/assets/images/logo-new.svg"
-import {AiOutlineMenu , AiFillCloseCircle} from "react-icons/ai"
+import Link from 'next/link'
+import React from 'react'
+import logo from "../public/assets/images/setting163264951061504126eaf41.png"
+import {FiMenu} from "react-icons/fi"
+import { useState } from 'react'
+import { ListGroup } from 'flowbite-react'
 function NavBar() {
-    const [menueBar , setmenuBar]= useState(false)
-    
-    let MenueIcon = AiOutlineMenu
-    // chack the meunbar 
-    if(menueBar){
-        MenueIcon = AiFillCloseCircle
-    }
-    return (  
-        <div className="w-full  h-[79px] md:h-24 p-2 lg:p-5 bg-[#f8f9fa] border-b-2  ">
-        <div className="">
-          <div className=" flex h-full w-full   ">
-            {/* logo  */}
-            <Link href="/">
-            <div className=" w-11/12 flex justify-between items-center md:w-1/5 cursor-pointer  ">
-              <div className="">
-                <Image
-                  src={loge}
-                  alt="loge travel website"
-                  width={200}
-                  height={50}
-                />
-              </div>
-            </div>
+  const [showMenu  , setShowMenu ] = useState(false)
+  return (
+    <div className=' relative bg-white '>
+        <div className=' container mx-auto '>
+        <div className='flex items-center justify-between py-3 '>
           
-            </Link>
-           
-            {/* links  */}
-            <div className=" w-3/5 flex   justify-center items-center">
-              <ul className=" hidden md:flex gap-4 font-serif   ">
-                <li className="text-lg uppercase text-[#777] transition  hover:text-[#029e9d] ">
-                  <Link href="/">
-                    <a>Home </a>
-                  </Link>
-                </li>
-                <li className="text-lg uppercase text-[#777] transition  hover:text-[#029e9d] ">
-                <Link href={`/Egypt/travel`}>
-                    <a>Traval Packages </a>
-                  </Link>
-                </li>
-                <li className=" text-lg uppercase text-[#777] transition  hover:text-[#029e9d] ">
-                <Link href={`/Egypt/cruises`}>
-                    <a>Egypt Cruises </a>
-                  </Link>
-                </li>
-                <li className=" text-lg uppercase text-[#777] transition  hover:text-[#029e9d] ">
-                <Link href={`/BlogList`}>
-                    <a>Blog  </a>
-                  </Link>
-                </li>
-        
-              </ul>
-            </div>
-            {/* button booking  */}
-            <div className=" hidden md:flex md:w-1/5  justify-center items-center">
-              <div className=" flex">
-                <Link href="/InquireNow">
-                  <a className="bg-[#029e9d]  text-center text-white text-lg rounded-2xl md:p-4 md:text-xl transition hover:bg-[#fdc703]">
-                  Inquire now
-                  </a>
-                </Link>
-              </div>
-            </div>
-            {/* menue bar  */}
-           <div className='flex justify-center transition duration-700 ease-out  items-center md:hidden cursor-pointer  ' onClick={() => setmenuBar(!menueBar)}>
-           <MenueIcon size={30}/>
-           </div>
-          </div>
+     {/* image */}
+     <div > 
+     <Image
+     src={logo}
+     width={180}
+     height={35}
+     />
+     </div>
+     {/* icon */}
+    <div 
+    
+    className='md:hidden cursor-pointer '>
+      <FiMenu
+      onClick={()=> setShowMenu(!showMenu)}
+      className='cursor-pointer'
+      size={30}  />
+    </div>
+     {/* links */}
+     <ul className=' gap-7 items-center hidden md:flex '>
+  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+    <Link href={"/"}>
+        home
+    </Link>
+  </li>
+  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+    <Link href={"/"}>
+        destination
+    </Link>
+  </li>
+  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+    <Link href={"/"}>
+        About Us
+    </Link>
+  </li>
+  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+    <Link href={"/"}>
+       Contect Us
+    </Link>
+  </li>
+  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+    <Link href={"/"}>
+        Blog
+    </Link>
+  </li>
+     </ul>
+     {/*login and Register  */}
+     <div className=' gap-4  hidden md:flex'>
+       <button className='py-1 px-4  font-serif bg-[#00AEFF] rounded-lg  text-white '>Login</button> 
+       <button className='py-1 px-4  font-serif bg-white rounded-lg border'>Register</button> 
+     </div> 
+     
+        </div> 
+        {/* menu bar  */}
+     <div className={ showMenu ? 'relative md:hidden transition-all duration-700 delay-200' :'relative md:hidden h-0  transition-all duration-700'}>
+      <div 
+      style={{ borderWidth:"17px", borderStyle: "solid", borderColor: " transparent  transparent #e6eef5  transparent "}}
+      className='absolute top-[-30px] right-0 '></div>
+      <ListGroup
+      className='bg-[#e6eef5] divide-y-2 divide-gray-500'
+      >
+    <ListGroup.Item>
+     Home
+    </ListGroup.Item>
+    <ListGroup.Item>
+    Destination
+    </ListGroup.Item>
+    <ListGroup.Item>
+    About Us
+    </ListGroup.Item>
+    <ListGroup.Item>
+    Contect Us
+    </ListGroup.Item>
+    <ListGroup.Item>
+    Blog
+    </ListGroup.Item>
+  </ListGroup>
+     </div>
         </div>
-        <div className= { menueBar ? `fixed right-0 top-[78px] transition duration-700 ease-out translate-x-0 z-50` : `fixed right-0 top-[78px] transition  duration-700 ease-out translate-x-72 z-50`} >
-            <div className='bg-[#f8f9fa] w-72   h-auto  rounded-lg z-50 flex justify-end transition-all    '>
-                <ul className='flex flex-col  w-full p-4  '>
-                    <li className='border-b-2  text-left w-full p-2 uppercase  transition-all hover:bg-[#cccccc] '>
-                        <Link href="/" >
-                            <a className=''> Home </a>
-                        </Link>
-                    </li  >
-                    <li className='border-b-2  text-left w-full p-2 uppercase transition-all hover:bg-[#cccccc] '>
-                        <Link href={`/Egypt/travel`} >
-                            <a> Traval Packages </a>
-                        </Link>
-                    </li>
-                    <li className='border-b-2 text-left w-full p-2 uppercase  transition-all hover:bg-[#cccccc] ' >
-                        <Link href={`/Egypt/cruises`}>
-                            <a> egypt Cruises  </a>
-                        </Link>
-                    </li>
-                    <li className='border-b-2  text-left w-full p-2 uppercase  transition-all hover:bg-[#cccccc] ' >
-                        <Link href={`/BlogList`} >
-                            <a> Blog  </a>
-                        </Link>
-                    </li>
-                </ul>
-            </div> 
-        </div>
-      </div>
-      )
+
+    </div>
+  )
 }
 
 export default NavBar

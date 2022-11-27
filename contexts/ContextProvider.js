@@ -3,9 +3,12 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 const StateContext = createContext();
 
 const initialState = {
-  Highlight: false,
-  Iternary: false,
-  Prices: false,
+  Asia: false,
+  Africa: false,
+  Europe: false,
+  Latin: false,
+  Multi: false,
+  type:""
 };
 const initialActiveLike = {
   like:false,
@@ -23,12 +26,14 @@ export const ContextProvider = ({ children }) => {
   // to whow tour in single blog 
   const handleShowTours = (clicked) =>
   setToursShow({ ...initialTours, [clicked]: true });
+  
   //  to set like 
   const handleClickAvtiveLike = (clicked) =>
   setActiveLike({ ...initialActiveLike, [clicked]: true });
+
   // set initialState in single tours
-  const handleClick = (clicked) =>
-  setIsClicked({ ...initialState, [clicked]: true });
+  const handleClick = (clicked , type) =>
+  setIsClicked({ ...initialState, [clicked]: true , type:clicked } );
 
   const [displayType, setDisplayType] = useState({
     Nile: "Luxor Aswan Nile Cruises",

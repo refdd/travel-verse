@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  button.group{
+    z-index: 60;
+  }
+
   .faq-row-wrapper{
     display: none;
   }
@@ -29,10 +33,20 @@ input[type=number] {
   .b-b-width {
     width: 0%;
   }
+  .hoverCard {
+    transform: scale(1);
+  }
   .PrefectCard {
     height: 0%;
   }
 
+  .wrapper:hover .hoverCard {
+    -webkit-transition: scale 1s ease-in-out;
+    -moz-transition: scale 1s ease-in-out;
+    -o-transition: scale 1s ease-in-out;
+    transition: scale 1s ease-in-out;
+    transform: scale(0.9);
+  }
   .wrapper:hover .PrefectCard {
     -webkit-transition: height 1s ease-in-out;
     -moz-transition: height 1s ease-in-out;

@@ -4,6 +4,7 @@ class Package {
         type,
         imageUrl,
         days,
+        night,
         cpuntry, 
         title,
         start,
@@ -21,6 +22,7 @@ class Package {
         this.cpuntry = cpuntry;
         this.days = days;
         this.offer = offer;
+        this.night = night;
 
       }
 }
