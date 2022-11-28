@@ -22,7 +22,7 @@ function DestinationSelect() {
        <div className='flex justify-center gap-3 flex-wrap md:gap-5 '>
          {country && country.map((item , index) =>{
           return (
-            <div className='flex flex-col pt-14 mb-6 w-[40%] md:w-[25%] '>
+            <div key={index} className='flex flex-col pt-14 mb-6 w-[40%] md:w-[25%] '>
             {/* image */}
             <div
             onClick={()=> handleClick(index)}
