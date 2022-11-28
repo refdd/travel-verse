@@ -7,7 +7,7 @@ function Step2() {
   return (
     <div>
           <NavBar/>
-      <MainHeader/>
+     
       <TravelTime />
     </div>
   )

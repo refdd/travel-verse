@@ -7,7 +7,7 @@ function Destaintion() {
   return (
     <div>
          <NavBar/>
-      <MainHeader/>
+      
       <DestinationSelect/>
     </div>
   )

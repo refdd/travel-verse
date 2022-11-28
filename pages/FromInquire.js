@@ -7,7 +7,7 @@ function FromInquire() {
   return (
     <div>
          <NavBar/>
-      <MainHeader/>
+   
       <FromSection/>
     </div>
   )

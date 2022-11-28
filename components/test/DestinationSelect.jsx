@@ -9,13 +9,22 @@ import { useEffect } from 'react'
 function DestinationSelect() {
   const [chackShow , setChackShow] = useState(false);
   const [indexele , setindexele] = useState(false);
+  const [allid , setAllId ]=useState([])
   useEffect(()=>{
     setindexele(null)
   },[])
   const handleClick = (id) => {
+    if(allid.includes(id)){
+      const reomveall =  allid.filter(item => item !== id)
+      setAllId(reomveall)
+    }else{
+      setAllId([ ...allid , id])
+    }
+    
     setindexele(id)
   }
   const country = ["Egypt " , "Jordan" , "Dubai" , "Oman" , "morococo" ,"Turkey"]
+  console.log(allid)
   return (
     <div className='container mx-auto pt-10 md:w-[60%]'>
       <h1 className='text-2xl text-[#09415d] font-Roboto  font-bold text-center'>chouse multi Destination?</h1>
@@ -26,7 +35,7 @@ function DestinationSelect() {
             {/* image */}
             <div
             onClick={()=> handleClick(index)}
-            className={indexele == index ? ' cursor-pointer  bg-[#f5a31b] pb-8 rounded-t-full rounded-b-full ' : ' cursor-pointer  border-2 pb-8 rounded-t-full rounded-b-full '}>
+            className={allid.includes(index) ? ' cursor-pointer  bg-[#f5a31b] pb-8 rounded-t-full rounded-b-full ' : ' cursor-pointer  border-2 pb-8 rounded-t-full rounded-b-full '}>
               <Image
               src={image1}
               width={300}
@@ -35,7 +44,7 @@ function DestinationSelect() {
               className='rounded-full bg-[#2a2ae3d] '
               />
             <p className='  text-lg text-center font-Roboto  mt-6  '> {item} </p>
-              {indexele == index ? <BsCheckLg size={24}  className="mx-auto mt-4 text-blue-500"/> :
+              {allid.includes(index)  ? <BsCheckLg size={24}  className="mx-auto mt-4 text-blue-500"/> :
               <FiCircle size={24} color='#777' className="mx-auto mt-4"/>
               }
             </div>
