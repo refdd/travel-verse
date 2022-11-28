@@ -9,7 +9,7 @@ const data = {
         </h2>
       ),
       content: (
-        <p className="text-[#777] text-lg font-serif capitalize ">
+        <p className="text-[#777] text-lg font-Roboto capitalize ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor
           sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit.
           Curabitur est nibh, varius in tellus nec, mattis pulvinar metus. In
@@ -26,7 +26,7 @@ const data = {
         </h2>
       ),
       content: (
-        <p className="text-[#777] text-lg font-serif capitalize ">
+        <p className="text-[#777] text-lg font-Roboto capitalize ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor
           sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit.
           Curabitur est nibh, varius in tellus nec, mattis pulvinar metus. In
@@ -40,7 +40,7 @@ const data = {
         </h2>
       ),
       content: (
-        <p className="text-[#777] text-lg font-serif capitalize ">
+        <p className="text-[#777] text-lg font-Roboto capitalize ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor
           purus, at tempus turpis.
         </p>

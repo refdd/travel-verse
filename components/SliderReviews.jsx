@@ -75,10 +75,10 @@ function SliderReviews() {
                   />
                   {/* content */}
                   <div className="flex flex-col gap-2">
-                    <h4 className="capitalize text-[16px] font-serif text-gray-900">
+                    <h4 className="capitalize text-[16px] font-Roboto text-gray-900">
                       Liliana Jacob
                     </h4>
-                    <p className="capitalize text-[16px] font-serif text-gray-700">
+                    <p className="capitalize text-[16px] font-Roboto text-gray-700">
                       San Mateo , Califormia
                     </p>
                   </div>
@@ -165,10 +165,10 @@ function SliderReviews() {
                   />
                   {/* content */}
                   <div className="flex flex-col gap-2">
-                    <h4 className="capitalize text-[16px] font-serif text-gray-900">
+                    <h4 className="capitalize text-[16px] font-Roboto text-gray-900">
                       Liliana Jacob
                     </h4>
-                    <p className="capitalize text-[16px] font-serif text-gray-700">
+                    <p className="capitalize text-[16px] font-Roboto text-gray-700">
                       San Mateo , Califormia
                     </p>
                   </div>
@@ -255,10 +255,10 @@ function SliderReviews() {
                   />
                   {/* content */}
                   <div className="flex flex-col gap-2">
-                    <h4 className="capitalize text-[16px] font-serif text-gray-900">
+                    <h4 className="capitalize text-[16px] font-Roboto text-gray-900">
                       Liliana Jacob
                     </h4>
-                    <p className="capitalize text-[16px] font-serif text-gray-700">
+                    <p className="capitalize text-[16px] font-Roboto text-gray-700">
                       San Mateo , Califormia
                     </p>
                   </div>
@@ -345,10 +345,10 @@ function SliderReviews() {
                   />
                   {/* content */}
                   <div className="flex flex-col gap-2">
-                    <h4 className="capitalize text-[16px] font-serif text-gray-900">
+                    <h4 className="capitalize text-[16px] font-Roboto text-gray-900">
                       Liliana Jacob
                     </h4>
-                    <p className="capitalize text-[16px] font-serif text-gray-700">
+                    <p className="capitalize text-[16px] font-Roboto text-gray-700">
                       San Mateo , Califormia
                     </p>
                   </div>
@@ -435,10 +435,10 @@ function SliderReviews() {
                   />
                   {/* content */}
                   <div className="flex flex-col gap-2">
-                    <h4 className="capitalize text-[16px] font-serif text-gray-900">
+                    <h4 className="capitalize text-[16px] font-Roboto text-gray-900">
                       Liliana Jacob
                     </h4>
-                    <p className="capitalize text-[16px] font-serif text-gray-700">
+                    <p className="capitalize text-[16px] font-Roboto text-gray-700">
                       San Mateo , Califormia
                     </p>
                   </div>
@@ -525,10 +525,10 @@ function SliderReviews() {
                   />
                   {/* content */}
                   <div className="flex flex-col gap-2">
-                    <h4 className="capitalize text-[16px] font-serif text-gray-900">
+                    <h4 className="capitalize text-[16px] font-Roboto text-gray-900">
                       Liliana Jacob
                     </h4>
-                    <p className="capitalize text-[16px] font-serif text-gray-700">
+                    <p className="capitalize text-[16px] font-Roboto text-gray-700">
                       San Mateo , Califormia
                     </p>
                   </div>

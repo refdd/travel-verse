@@ -21,8 +21,8 @@ function ChooseUs() {
                 </div>
                 {/* content */}
                 <div className='flex flex-col gap-2'>
-                  <h1 className='text-xl  md:text-[20px] delay-200 z-20  group-hover:text-white text-gray-900 font-bold md:font-normal font-serif capitalize'>Free Cancelation</h1>
-                  <p className='text-lg md:text-[16px] delay-200 z-20 text-[#777] group-hover:text-white font-medium md:font-normal font-serif capitalize'>cencel any time and receve a full refund</p>
+                  <h1 className='text-xl  md:text-[20px] delay-200 z-20  group-hover:text-white text-gray-900 font-bold md:font-normal font-Roboto capitalize'>Free Cancelation</h1>
+                  <p className='text-lg md:text-[16px] delay-200 z-20 text-[#777] group-hover:text-white font-medium md:font-normal font-Roboto capitalize'>cencel any time and receve a full refund</p>
                 </div>
             </div>
             <div className=' wrapper group flex gap-3 items-center py-3 px-3 border shadow-lg rounded-lg'>
@@ -41,8 +41,8 @@ function ChooseUs() {
                 </div>
                 {/* content */}
                 <div className='flex flex-col gap-2'>
-                  <h1 className='text-xl  md:text-[20px] delay-200 z-20  group-hover:text-white text-gray-900 font-bold md:font-normal font-serif capitalize'>Free Cancelation</h1>
-                  <p className='text-lg md:text-[16px] delay-200 z-20 text-[#777] group-hover:text-white font-medium md:font-normal font-serif capitalize'>cencel any time and receve a full refund</p>
+                  <h1 className='text-xl  md:text-[20px] delay-200 z-20  group-hover:text-white text-gray-900 font-bold md:font-normal font-Roboto capitalize'>Free Cancelation</h1>
+                  <p className='text-lg md:text-[16px] delay-200 z-20 text-[#777] group-hover:text-white font-medium md:font-normal font-Roboto capitalize'>cencel any time and receve a full refund</p>
                 </div>
             </div>
             <div className=' wrapper group flex gap-3 items-center py-3 px-3 border shadow-lg rounded-lg'>
@@ -61,8 +61,8 @@ function ChooseUs() {
                 </div>
                 {/* content */}
                 <div className='flex flex-col gap-2'>
-                  <h1 className='text-xl  md:text-[20px] delay-200 z-20  group-hover:text-white text-gray-900 font-bold md:font-normal font-serif capitalize'>Free Cancelation</h1>
-                  <p className='text-lg md:text-[16px] delay-200 z-20 text-[#777] group-hover:text-white font-medium md:font-normal font-serif capitalize'>cencel any time and receve a full refund</p>
+                  <h1 className='text-xl  md:text-[20px] delay-200 z-20  group-hover:text-white text-gray-900 font-bold md:font-normal font-Roboto capitalize'>Free Cancelation</h1>
+                  <p className='text-lg md:text-[16px] delay-200 z-20 text-[#777] group-hover:text-white font-medium md:font-normal font-Roboto capitalize'>cencel any time and receve a full refund</p>
                 </div>
             </div>
            

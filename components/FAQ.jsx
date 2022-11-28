@@ -17,7 +17,7 @@ function FAQ() {
         </div>
         {/* Faq */}
         <div className=' md:col-span-3'>
-            <h3 className='text-xl text-gray-900 font-serif capitalize text-center font-semibold my-7 '>Frequently Questions</h3>
+            <h3 className='text-xl text-gray-900 font-Roboto capitalize text-center font-semibold my-7 '>Frequently Questions</h3>
         <FAndQPart/>
         <div className="  group w-full pt-10  md:pt-7 flex  items-center  ">
         <Link href={`/`}>

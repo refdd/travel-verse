@@ -9,10 +9,10 @@ function DellorYourTrips() {
         className="bg-no-repeat  bg-cover "
       >
         <div className="flex flex-col justify-center items-center w-full h-full gap-2  py-12 bg-[#003979c7]">
-          <h1 className="text-2xl font-semibold font-serif text-white capitalize">
+          <h1 className="text-2xl font-semibold font-Roboto text-white capitalize">
             Personalize Your Trip
           </h1>
-          <p className=" md:text-lg text-[15px] text-white font-serif capitalize text-center  md:px-36">
+          <p className=" md:text-lg text-[15px] text-white font-Roboto capitalize text-center  md:px-36">
             Personalize your trip now! We've prepared a selection of the best
             travel destinations all across the world to pick from. You'll find
             the best packages to Egypt, Jordan, Dubai, Morocco, Turkey, Greece,
@@ -41,10 +41,10 @@ export default DellorYourTrips;
 //   {/* lauout */}
 //   {/* content */}
 //   <div className="">
-//     <h3 className="text-xl text-white font-serif font-semibold capitalize text-center mb-5 z-20">
+//     <h3 className="text-xl text-white font-Roboto font-semibold capitalize text-center mb-5 z-20">
 //       Dellor your Trips
 //     </h3>
-//     <p className="text-sm font-serif capitalize text-white font-medium  mb-5">
+//     <p className="text-sm font-Roboto capitalize text-white font-medium  mb-5">
 //       Personalize your trip now! We've prepared a selection of the best
 //       travel destinations all across the world to pick from. You'll find the
 //       best packages to Egypt, Jordan, Dubai, Morocco, Turkey, Greece, Kenya,

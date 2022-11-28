@@ -9,12 +9,12 @@ function Footer() {
         {/* frist clo */}
         <div className="flex flex-col gap-3 ">
           <p className="relative">
-            <span className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-Roboto font-semibold">
               Travelverse
             </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
-          <p className="text-lg text-gray-400 font-serif capitalize ">
+          <p className="text-lg text-gray-400 font-Roboto capitalize ">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Repellendus accusantium quia, et unde iusto, esse cumque
             necessitatibus fu
@@ -23,12 +23,12 @@ function Footer() {
         {/* col tow */}
         <div className="flex flex-col gap-3 px-3 ">
           <p className="relative">
-            <span className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-Roboto font-semibold">
               Our Info
             </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
-          <ul className="flex flex-col gap-2  text-lg text-gray-400  capitalize font-serif">
+          <ul className="flex flex-col gap-2  text-lg text-gray-400  capitalize font-Roboto">
             <li className="hover:text-white transition-all">
               <Link href={"/"}>About us</Link>
             </li>
@@ -52,21 +52,21 @@ function Footer() {
         {/* col three  */}
         <div className="flex flex-col gap-3">
           <p className="relative">
-            <span className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-Roboto font-semibold">
               Contact
             </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
           <div className="flex flex-col gap-3">
-            <p className="text-lg text-gray-400 capitalize font-serif">
+            <p className="text-lg text-gray-400 capitalize font-Roboto">
               Sales@nilevruisevation.com
             </p>
             <p className="text-lg text-gray-400 capitalize font-mono">
-              <span className="text-[20px] font-serif">Phone:</span>(020)
+              <span className="text-[20px] font-Roboto">Phone:</span>(020)
               8320-221
             </p>
             <p className="text-lg text-gray-400 capitalize font-mono">
-              <span className="text-[20px] font-serif">Fax:</span>(020) 8320-221
+              <span className="text-[20px] font-Roboto">Fax:</span>(020) 8320-221
             </p>
           </div>
           <div className="flex gap-5">
@@ -78,12 +78,12 @@ function Footer() {
         {/* col four */}
         <div className="flex flex-col gap-4">
           <p className="relative">
-            <span className="text-xl text-white font-serif font-semibold">
+            <span className="text-xl text-white font-Roboto font-semibold">
               Newslatters
             </span>
             <span className="absolute bottom-[-6px] left-0 w-9 h-[2px] bg-white"></span>
           </p>
-          <p className="text-lg text-gray-400 font-serif capitalize ">
+          <p className="text-lg text-gray-400 font-Roboto capitalize ">
             Get updated by subScribe Our Weeky Newsletter
           </p>
           <div className="flex w-full flex-col md:flex-row gap-1">
@@ -108,10 +108,10 @@ function Footer() {
       {/* copy right */}
       <div className=" container mx-auto border-t-2 border-gray-400 md:w-[90%] "></div>
       <div className="flex flex-col md:flex-row md:justify-between items-center py-4 md:w-[90%] md:mx-auto">
-        <p className="text-lg text-gray-400 font-serif capitalize ">
+        <p className="text-lg text-gray-400 font-Roboto capitalize ">
           Copyright &#169; travel verse 2020.all right reserved{" "}
         </p>
-        <ul className="flex gap-3 text-lg text-gray-400 font-serif capitalize ">
+        <ul className="flex gap-3 text-lg text-gray-400 font-Roboto capitalize ">
           <li className="hover:text-white cursor-pointer">condition</li>
           <li className="hover:text-white cursor-pointer">Peivacy Policy</li>
           <li className="hover:text-white cursor-pointer">Policy</li>

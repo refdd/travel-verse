@@ -18,7 +18,7 @@ function Galliry() {
             className='rounded-lg  '
             />
             <div className='absolute cursor-pointer top-0 left-0 bg-[#00000052] w-full h-[98%] flex justify-center items-center rounded-lg'>
-                <button className='text-white text-xl font-serif capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Latin America</button>
+                <button className='text-white text-xl font-Roboto capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Latin America</button>
             </div>
          </div>
          <div className=' relative overflow-hidden md:w-[48%] '>
@@ -31,7 +31,7 @@ function Galliry() {
             className='rounded-lg  '
             />
             <div className='absolute cursor-pointer top-0 left-0 bg-[#00000052] w-full h-[98%] flex justify-center items-center rounded-lg'>
-                <button className='text-white text-xl font-serif capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Multi DEstinations</button>
+                <button className='text-white text-xl font-Roboto capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Multi DEstinations</button>
             </div>
          </div>
          <div className=' relative overflow-hidden md:w-[31%]  '>
@@ -44,7 +44,7 @@ function Galliry() {
             className='rounded-lg  '
             />
             <div className='absolute cursor-pointer top-0 left-0 bg-[#00000052] w-full h-[98%] flex justify-center items-center rounded-lg'>
-                <button className='text-white text-xl font-serif capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Asia</button>
+                <button className='text-white text-xl font-Roboto capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Asia</button>
             </div>
          </div>
          <div className=' relative overflow-hidden md:w-[31%] '>
@@ -57,7 +57,7 @@ function Galliry() {
             className='rounded-lg  '
             />
             <div className='absolute cursor-pointer top-0 left-0 bg-[#00000052] w-full h-[98%] flex justify-center items-center rounded-lg'>
-                <button className='text-white text-xl font-serif capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Europ</button>
+                <button className='text-white text-xl font-Roboto capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Europ</button>
             </div>
          </div>
          <div className=' relative overflow-hidden md:w-[31%] '>
@@ -70,7 +70,7 @@ function Galliry() {
             className='rounded-lg  '
             />
             <div className='absolute cursor-pointer top-0 left-0 bg-[#00000052] w-full h-[98%] flex justify-center items-center rounded-lg'>
-                <button className='text-white text-xl font-serif capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Africa</button>
+                <button className='text-white text-xl font-Roboto capitalize px-14 py-2 border-[3px] border-white  rounded-2xl hover:scale-105'> Africa</button>
             </div>
          </div>
          

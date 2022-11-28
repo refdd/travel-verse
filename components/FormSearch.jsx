@@ -5,7 +5,7 @@ function FormSearch() {
 
     <div className='container mx-auto  pt-5 md:w-[80%] md:pt-0 md:relative'>
        <div className='border-2 px-4 py-3 rounded-lg border-gray-400 md:absolute md:top-[-73px] md:w-full md:border-none md:bg-[#fff] z-50'>
-       <h4 className='mb-4 text-lg font-serif font-medium capitalize'>find the place it suits you best</h4>
+       <h4 className='mb-4 text-lg font-Roboto font-medium capitalize'>find the place it suits you best</h4>
         <div className='flex flex-col gap-3 md:flex-row'>
         <div className='flex-1'>
             <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3" placeholder="Search Your Tips" required />

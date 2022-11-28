@@ -31,27 +31,27 @@ function NavBar() {
     </div>
      {/* links */}
      <ul className=' gap-7 items-center hidden md:flex '>
-  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
-    <Link href={"/"}>
+  <li className='text-lg font-Roboto capitalize hover:text-[#00AEFF] '>
+    <Link href={"/Destaintion"}>
         home
     </Link>
   </li>
-  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+  <li className='text-lg font-Roboto capitalize hover:text-[#00AEFF] '>
     <Link href={"/"}>
         destination
     </Link>
   </li>
-  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+  <li className='text-lg font-Roboto capitalize hover:text-[#00AEFF] '>
     <Link href={"/"}>
         About Us
     </Link>
   </li>
-  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+  <li className='text-lg font-Roboto capitalize hover:text-[#00AEFF] '>
     <Link href={"/"}>
        Contect Us
     </Link>
   </li>
-  <li className='text-lg font-serif capitalize hover:text-[#00AEFF] '>
+  <li className='text-lg font-Roboto capitalize hover:text-[#00AEFF] '>
     <Link href={"/"}>
         Blog
     </Link>
@@ -59,8 +59,8 @@ function NavBar() {
      </ul>
      {/*login and Register  */}
      <div className=' gap-4  hidden md:flex'>
-       <button className='py-1 px-4  font-serif bg-[#00AEFF] rounded-lg  text-white '>Login</button> 
-       <button className='py-1 px-4  font-serif bg-white rounded-lg border'>Register</button> 
+       <button className='py-1 px-4  font-Roboto bg-[#00AEFF] rounded-lg  text-white '>Login</button> 
+       <button className='py-1 px-4  font-Roboto bg-white rounded-lg border'>Register</button> 
      </div> 
      
         </div> 

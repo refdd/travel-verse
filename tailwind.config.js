@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: [
     "./node_modules/flowbite-react/**/*.js",
@@ -9,7 +10,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/assets/images/shape4.png')",
-      }
+      },
+      fontFamily: {
+        Roboto: ["Roboto", ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   plugins: [

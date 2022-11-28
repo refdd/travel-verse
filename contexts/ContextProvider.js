@@ -10,6 +10,10 @@ const initialState = {
   Multi: false,
   type:""
 };
+const initialDate = {
+  exactDates: false,
+  approximate : false
+};
 const initialActiveLike = {
   like:false,
   dislike:false,
@@ -23,9 +27,12 @@ export const ContextProvider = ({ children }) => {
   const [activLike , setActiveLike ] = useState(initialActiveLike)
   const [isClicked, setIsClicked] = useState(initialState);
   const [ToursShow, setToursShow] = useState(initialTours);
+  const [date, setDate] = useState(initialDate);
   // to whow tour in single blog 
   const handleShowTours = (clicked) =>
   setToursShow({ ...initialTours, [clicked]: true });
+  const handleDate = (clicked) =>
+  setDate({ ...initialDate, [clicked]: true });
   
   //  to set like 
   const handleClickAvtiveLike = (clicked) =>
@@ -59,7 +66,10 @@ export const ContextProvider = ({ children }) => {
         activLike,
         handleShowTours,
         ToursShow,
-        setToursShow
+        setToursShow,
+        handleDate,
+        date,
+         setDate
       }}
     >
       {children}
