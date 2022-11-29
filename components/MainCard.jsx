@@ -16,7 +16,6 @@ function MainCard() {
     );
     setSingelPackage(fliterPackageByCountry);
   }, [isClicked]);
-  console.log(singelPackage);
   return (
     <>
       {singelPackage &&

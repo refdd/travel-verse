@@ -11,9 +11,11 @@ import MainHeader from '../components/MainHeader'
 import NavBar from '../components/NavBar'
 import PackageContainer from '../components/PackageContainer'
 import Reviews from '../components/Reviews'
+import {fetchApi , baseUrl} from '../utils/ferchApi'
 // import { Alert } from "flowbite-react";
 
-export default function Home() {
+export default function Home({test , testfAndQ}) {
+  // console.log(test)
   return (
     <div className='' >
       <Head>
@@ -39,3 +41,14 @@ export default function Home() {
     </div>
   )
 }
+
+export  async  function getStaticProps(){
+  const test = await fetchApi(`${baseUrl}/destinations`);
+  const testfAndQ = await fetchApi(`${baseUrl}/faqs`);
+  return{
+    props:{
+      test:test,
+      testfAndQ:testfAndQ.data,
+    }
+  }
+ }

@@ -65,7 +65,7 @@ function NavBar() {
      
         </div> 
         {/* menu bar  */}
-     <div className={ showMenu ? 'relative md:hidden transition-all duration-700 delay-200' :'relative md:hidden h-0  transition-all duration-700'}>
+     <div className={ showMenu ? 'relative md:hidden  transition-all duration-700 delay-200' :'relative hidden h-0  transition-all duration-700'}>
       <div 
       style={{ borderWidth:"17px", borderStyle: "solid", borderColor: " transparent  transparent #e6eef5  transparent "}}
       className='absolute top-[-30px] right-0 '></div>

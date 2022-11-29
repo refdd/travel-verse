@@ -54,10 +54,14 @@ function DestinationSelect() {
          } ) }
         
        </div>
-       <div className='flex justify-center items-center pt-7 '>
-     <button className='text-xl text-white font-Roboto capitalize px-6 py-1 w-48 rounded-lg bg-[#09415D]'>
-      <Link href={"/Step2"}>
-      Next Step
+       <div id='nextStep' className={allid.length == 0 ?'flex justify-center items-center pt-7 cursor-not-allowed ' :'flex justify-center items-center pt-7  '}>
+     <button className={allid.length == 0 ? 'text-xl text-white font-Roboto capitalize px-6 py-1 w-48 rounded-lg bg-[#777] cursor-not-allowed '
+            :'text-xl text-white font-Roboto capitalize px-6 py-1 w-48 rounded-lg bg-[#09415D]  '
+    }
+    disabled={true}
+    >
+      <Link className='' href={"/Step2"}>
+      <a className={allid.length == 0  ? 'cursor-not-allowed  ' : ' '}> Next Step</a>
       </Link>
      </button>
        </div>
