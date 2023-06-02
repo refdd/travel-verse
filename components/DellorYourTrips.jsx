@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import bg from "../public/assets/images/tailor.jpg";
+import bg from "../public/assets/images/tailor.webp";
 function DellorYourTrips() {
   return (
     <div className="pt-10">
@@ -17,7 +17,6 @@ function DellorYourTrips() {
             travel destinations all across the world to pick from. You'll find
             the best packages to Egypt, Jordan, Dubai, Morocco, Turkey, Greece,
             Kenya, Mexico, Peru, India, and many more suiting all tastes,
-          
           </p>
           <div className="  group w-full md:mt-7  flex justify-center items-center  ">
             <Link href={`/`}>

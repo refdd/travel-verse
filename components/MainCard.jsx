@@ -21,7 +21,10 @@ function MainCard() {
       {singelPackage &&
         singelPackage.map((item, index) => {
           return (
-            <div key={index}  className="min-w-[350px] md:min-w-0 md:w-[24%] mx-auto px-2 py-1 md:px-0 md:mx-0 mt-5">
+            <div
+              key={index}
+              className="min-w-[350px] md:min-w-0 md:w-[24%] mx-auto px-2 py-1 md:px-0 md:mx-0 mt-5"
+            >
               <div className="flex flex-col gap-2 py-1 px-2 border-2 shadow-xl rounded-lg md:px-0 md:shadow-none md:border-none ">
                 {/* image and countary*/}
                 <div className="relative overflow-hidden h-44  ">
@@ -68,7 +71,7 @@ function MainCard() {
                       <BsStarFill color="#FFD500" size={24} />{" "}
                       <BsStarFill color="#FFD500" size={24} />{" "}
                       <BsStarFill color="#FFD500" size={24} />{" "}
-                      <span className="text-sm text-gray-400" > (29) </span>
+                      <span className="text-sm text-gray-400"> (29) </span>
                     </p>
 
                     <p className="text-3xl text-[#00AEFF] font-mono font-semibold md:font-normal md:text-xl ">
